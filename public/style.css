@@ -1,0 +1,124 @@
+html {
+  font-family: Arial;
+  background: #27232c;
+  color: #ffffff;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+  font-size: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: #403948;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+  letter-spacing: 10px;
+  font-size: 2.4rem;
+  margin-bottom: 4rem;
+}
+
+h2 {
+  text-align: center;
+  font-family: monospace;
+  letter-spacing: 5px;
+  font-size: 1.6rem;
+}
+
+td, tr, th {
+  width: 100px;
+  text-align: center;
+  padding: .5rem 1rem;
+}
+
+th {
+  background: #37313f;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 1rem;
+  background: #4c4357;
+  border-radius: 1rem;
+}
+
+tr:nth-child(even) {
+  background: #403948
+}
+
+table form {
+  background: none;
+}
+
+svg {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+a {
+  display: table;
+  color: #cccccc;
+  margin: 1rem;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+form {
+  margin: 2rem 1rem;
+  background: #37313f;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+label {
+  display: block;
+  margin: .5rem;
+}
+
+input, select {
+  padding: 5px;
+}
+
+button {
+  padding: 1rem 2rem;
+  margin-top: 10px;
+  background: #584e65;
+  color: #ffffff;
+  border: none;
+  transition: .2s;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffffff;
+  color: #403948;
+}
+
+footer {
+  bottom: 10px;
+  right: 10px;
+  margin: 0;
+  text-align: right;
+  font-style: italic;
+  position: fixed;
+}
